@@ -1,0 +1,13 @@
+:Dart2Js	dart.txt	/*:Dart2Js*
+:DartAnalyzer	dart.txt	/*:DartAnalyzer*
+:DartFmt	dart.txt	/*:DartFmt*
+dart-commands	dart.txt	/*dart-commands*
+dart-configure	dart.txt	/*dart-configure*
+dart-syntax	dart.txt	/*dart-syntax*
+dart-tools	dart.txt	/*dart-tools*
+dart-vim-plugin	dart.txt	/*dart-vim-plugin*
+dart.vim	dart.txt	/*dart.vim*
+g:dart_corelib_highlight	dart.txt	/*g:dart_corelib_highlight*
+g:dart_html_in_string	dart.txt	/*g:dart_html_in_string*
+g:dart_style_guide	dart.txt	/*g:dart_style_guide*
+g:dartfmt_options	dart.txt	/*g:dartfmt_options*

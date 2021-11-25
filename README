@@ -1,0 +1,9 @@
+How to use:
+1. Tmux:
+ # cp tmux/tmux.conf ~/.tmux.conf
+
+2. vim
+ # rm ~/.vimrc ~/.vim -rf
+ Please execute the command above as required.
+
+3. Enjoy your self

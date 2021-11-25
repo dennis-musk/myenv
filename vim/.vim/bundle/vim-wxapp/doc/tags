@@ -1,0 +1,17 @@
+:Wxgen	wxapp.txt	/*:Wxgen*
+wxapp#generate	wxapp.txt	/*wxapp#generate*
+wxapp#rebuild	wxapp.txt	/*wxapp#rebuild*
+wxapp#reload	wxapp.txt	/*wxapp#reload*
+wxapp#start	wxapp.txt	/*wxapp#start*
+wxapp-changelog	wxapp.txt	/*wxapp-changelog*
+wxapp-commands	wxapp.txt	/*wxapp-commands*
+wxapp-complete	wxapp.txt	/*wxapp-complete*
+wxapp-contents	wxapp.txt	/*wxapp-contents*
+wxapp-functions	wxapp.txt	/*wxapp-functions*
+wxapp-installation	wxapp.txt	/*wxapp-installation*
+wxapp-interface	wxapp.txt	/*wxapp-interface*
+wxapp-introduction	wxapp.txt	/*wxapp-introduction*
+wxapp-mappings	wxapp.txt	/*wxapp-mappings*
+wxapp-recommends	wxapp.txt	/*wxapp-recommends*
+wxapp-requirement	wxapp.txt	/*wxapp-requirement*
+wxapp.txt	wxapp.txt	/*wxapp.txt*

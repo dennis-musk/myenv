@@ -1,0 +1,15 @@
+:ErlangCompleteClearAllCache	vim-erlang-omnicomplete.txt	/*:ErlangCompleteClearAllCache*
+g:erlang_completion_cache	vim-erlang-omnicomplete.txt	/*g:erlang_completion_cache*
+g:erlang_completion_nonzero_arity_paren	vim-erlang-omnicomplete.txt	/*g:erlang_completion_nonzero_arity_paren*
+g:erlang_completion_preview_help	vim-erlang-omnicomplete.txt	/*g:erlang_completion_preview_help*
+g:erlang_completion_zero_arity_paren	vim-erlang-omnicomplete.txt	/*g:erlang_completion_zero_arity_paren*
+vim-erlang-omnicomplete	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete*
+vim-erlang-omnicomplete-commands	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete-commands*
+vim-erlang-omnicomplete-config	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete-config*
+vim-erlang-omnicomplete-config-rebar3	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete-config-rebar3*
+vim-erlang-omnicomplete-contributing	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete-contributing*
+vim-erlang-omnicomplete-credits	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete-credits*
+vim-erlang-omnicomplete-errors	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete-errors*
+vim-erlang-omnicomplete-intro	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete-intro*
+vim-erlang-omnicomplete-options	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete-options*
+vim-erlang-omnicomplete.txt	vim-erlang-omnicomplete.txt	/*vim-erlang-omnicomplete.txt*
