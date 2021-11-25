@@ -1190,17 +1190,18 @@ end
 " ========  注释的颜色为淡蓝色 ========= "
 hi comment ctermfg=6
 
-" ============ 使用鼠标 ========== ”
+" ============== 使用鼠标 ============== ”
 set mouse=a
 
-" ========== taglist 使用 ========= "
+" ============ taglist 使用 ============ "
 nnoremap <silent> <F8> :TlistToggle<CR>
 let Tlist_Show_One_File=1   "Show tags for the current buffer only
 let Tlist_Exit_OnlyWindow=1 " Close Vim if the taglist is the only window
 " nmap tt:Tlist<CR>
 " set updatetime=1500
 set tags=tags;
-" 打开文件，光标定位到上次退出的位置
+
+" ====== 打开文件，光标定位到上次退出的位置 ====== "
 autocmd BufReadPost *
     \ if line("'\"") > 0 && line("'\"") <= line("$") |
     \   exe "normal g`\"" |
