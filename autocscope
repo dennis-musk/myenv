@@ -1,0 +1,64 @@
+#!/bin/bash
+make_find_name_arg()
+{
+	file_prefix=$1
+	declare -a file_types=("${!2}")
+
+	for each_file in ${file_types[@]}
+	do
+		if [ -n "$find_arg" ]
+		then
+			single_find_arg="-o "
+		else
+			single_find_arg=""
+		fi
+		single_find_arg+="-name \""
+		single_find_arg+=$file_prefix
+		single_find_arg+=$each_file
+		single_find_arg+="\" "
+		find_arg+=$single_find_arg
+	done
+}
+
+make_find_arg()
+{
+	# 文件类型，如*.c
+	local FILETYPES=("c" "cc" "cpp" "h" 
+			   "mk" 'sh' 
+			   "java" 
+			   "S")
+	# 文件名，如Makefile
+
+	local FILENAMES=("Makefile" "makefile")
+	make_find_name_arg "*." FILETYPES[@]
+	make_find_name_arg "" FILENAMES[@]
+}
+
+build_ecsope_file()
+{
+	find_arg=""
+	make_find_arg
+	#echo "find" $src_path " " $find_arg
+	find_str="find "
+	find_str+=$src_path
+	find_str+=" "
+	find_str+=$find_arg
+	eval $find_str > cscope.files
+}
+
+main()
+{
+	build_ecsope_file
+	cscope -bkq -i cscope.files >/dev/null 2>&1
+    ctags -R
+}
+
+if [ $# -ne 2 ]
+	src_path=$(pwd)
+then
+	src_path=$1
+fi
+
+rm -rf $src_path/cscope* 
+rm -rf tags
+main
